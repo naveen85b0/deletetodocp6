@@ -1,0 +1,24 @@
+/* Write your CSS here */
+@media (max-width: 576px) or (min-width: 768px) {
+  .main {
+    background-color: #ffc2a0;
+    padding: 50px;
+  }
+  .insidemain {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+  }
+  .heading {
+    text-align: center;
+    color: #ff8542;
+    font-size: 40px;
+    font-family: roboto;
+  }
+  .ullist {
+    list-style-type: none;
+  }
+}
